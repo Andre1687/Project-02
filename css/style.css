@@ -7,7 +7,7 @@
 }
 
 body {
-   font-family: 'nunito', times-new-roman, comic-sans , sans-serif;
+   font-family: 'anton', times-new-roman, comic-sans , sans-serif;
    text-align: center;
   
 }
@@ -50,15 +50,17 @@ a:hover {
 
 img {
    max-width: 100%;    
-   padding: 1rem;
+   padding: .75rem;
 }
 
 p {
+   font-family: 'nunito', times-new-roman, comic-sans , sans-serif;
+   font-size: 18px;
    font-weight: lighter;
    padding-top: .5rem;
-   padding-right: 2rem;
+   padding-right:1.75rem;
    padding-bottom: 1.5rem;
-   padding-left: 2rem;
+   padding-left: 1.75rem;
 }
 
 
@@ -68,8 +70,6 @@ p {
 #display-none2 {
   display: none;
 }
-
-
 
 /*----------------------------- CLASS SELECTORS -----------------------------*/
 
@@ -106,10 +106,10 @@ p {
 }
 
 .image-titles {
-  font-size: 25px;
-  padding-top: 1rem;
+  font-size: 30px;
+  padding-top: .75rem;
   padding-bottom: 10px;
-  
+  font-family: 'anton', times-new-roman, comic-sans , sans-serif;
 }
 
 .main-footer {
@@ -121,7 +121,6 @@ p {
 }
 
 .last-nav li {
-  list-style-type: none;
   font-weight: bolder;
   margin: 1rem;
   padding: 1rem;
@@ -149,6 +148,7 @@ p {
 
 h1 {
   font-size: 2.5rem;
+  padding-right: .5rem;
 }
 
 h2,
@@ -156,10 +156,19 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-top: .10rem;
+}
+
 p {
   font-size: 1.25rem;
 }
 
+footer {
+padding-top: 1rem;
+}
 
 
 /*------------------------------ ID SELECTORS -------------------------------*/
@@ -184,9 +193,27 @@ p {
   padding-bottom: 1rem;
 }
 
+#center-contact {
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 2rem;
+}
 
 
 /*----------------------------- CLASS SELECTORS -----------------------------*/
+
+.main-nav {
+  padding-top: 2.5rem;
+  padding-right: 1rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+}
+
+.thousand-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
 
 .main-nav ul li {
   display: inline-block;
@@ -214,24 +241,24 @@ p {
   font-size: 1.5rem;
 }
 
-/*-------   last nav #2   -------*/
-
 .grey-color-bottom {
   width: 100%;
   background-color: #F6F5F5;
+  padding-bottom: 1.5rem;
 }
+
+/*-------   last nav #2   -------*/
+
 
 .main-footer {
   border-top: 1px lightgrey solid; 
 }
 
 .last-nav {
-  flex-direction: row;
   padding: 0.5rem;
 }
 
 .last-nav li {
-  list-style-type: none;
   font-size: 1rem;
   font-weight: bolder;
   margin: 1rem;
@@ -269,14 +296,21 @@ p {
 /*------------------------------ TAG SELECTORS ------------------------------*/
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.25rem;
+  padding-left: 3rem;
 }
 
-h2,
-h3 {
-  font-size: 2rem;
-  padding-bottom: 5.5rem;
+h2 {
+  font-size: 2.5rem;
   padding-top: 6rem;
+  padding-bottom: 5.5rem;
+ 
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 p {
@@ -290,13 +324,26 @@ p {
 #profile-text {
   padding-right: 3rem;
   padding-left: 3rem;
-  line-height: 2rem;
+  line-height: 3rem;
   font-size: 1.75rem;
 }
 
 
 
 /*---------------------------- CLASS SELECTORS -----------------------------*/
+
+.main-nav {
+  padding-top: 2.5rem;
+  padding-right: 2.75rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+}
+
+.thousand-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .profile-img {
 padding-bottom: 3rem;
@@ -316,6 +363,9 @@ padding-bottom: 3rem;
 padding-bottom: 5rem;
 }
 
+.main-nav {
+  padding-bottom: 2rem;
+}
 
 
 
@@ -337,27 +387,9 @@ padding-bottom: 5rem;
 /*
 
 
-
 -Fix the last nav and name for 1000px so they go on the edges
 
 -fix the contact spacing and space between the phone and email
-
--fix the last nav spacing so they can go on the edges
-
--
-
--
-
--
-
--fix the grammar
-
--make it so theres a small limit
-
--Change profile image
-
--Check gogle fonts
-
 
 
 */
