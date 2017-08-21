@@ -7,7 +7,7 @@
 }
 
 body {
-   font-family: 'anton', times-new-roman, comic-sans , sans-serif;
+   font-family: 'Righteous', times-new-roman, comic-sans , sans-serif;
    text-align: center;
   
 }
@@ -109,7 +109,7 @@ p {
   font-size: 30px;
   padding-top: .75rem;
   padding-bottom: 10px;
-  font-family: 'anton', times-new-roman, comic-sans , sans-serif;
+  font-family: 'Righteous', times-new-roman, comic-sans , sans-serif;
 }
 
 .main-footer {
@@ -209,7 +209,13 @@ padding-top: 1rem;
   padding-left: 0;
 }
 
-.thousand-nav {
+.thousand-nav1 {
+  display: table-header-group;
+  justify-content: center;
+  align-items: center;
+} 
+
+.thousand-nav2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -339,7 +345,13 @@ p {
   padding-left: 0;
 }
 
-.thousand-nav {
+.thousand-nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thousand-nav2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -356,7 +368,7 @@ padding-bottom: 3rem;
 }
 
 .image-titles {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text {
@@ -370,29 +382,6 @@ padding-bottom: 5rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
--Fix the last nav and name for 1000px so they go on the edges
-
--fix the contact spacing and space between the phone and email
-
-
-*/
 
 
 
